@@ -1,6 +1,5 @@
 # Spatio-Temporal Ride Demand Prediction in NYC
 
-**CSAI-801 — Artificial Intelligence & Machine Learning — Group 4**
 
 Predicting hourly taxi ride demand across 261 NYC pickup zones using January 2025 Yellow Taxi trip records. Fourteen supervised ML models (linear, tree-based, gradient boosting, instance-based, SVR) are benchmarked against a historical-average baseline.
 
@@ -8,7 +7,7 @@ Predicting hourly taxi ride demand across 261 NYC pickup zones using January 202
 
 | Model | MAE | RMSE | R² | Time (s) |
 |---|---|---|---|---|
-| **XGBoost (Tuned)** ⭐ | **3.0949** | 10.0165 | 0.9624 | 115.2 |
+| **XGBoost (Tuned)**  | **3.0949** | 10.0165 | 0.9624 | 115.2 |
 | Stacking (XGB+Ridge+KNN) | 3.1116 | 10.0151 | 0.9624 | 160.7 |
 | XGBoost (early stop) | 3.1368 | 10.1694 | 0.9613 | 3.3 |
 | LightGBM (early stop) | 3.1657 | 10.2880 | 0.9604 | 6.9 |
