@@ -64,9 +64,6 @@ jupyter notebook
 
 Run `notebooks/ML_ready_dataset_notebook.ipynb` first to produce the ML-ready dataset, then `notebooks/Spatio_Temporal_Ride_Demand_Prediction.ipynb` for modeling and evaluation.
 
-## Authors
-
-Group 4 — CSAI-801, Artificial Intelligence & Machine Learning
 
 ## License
 
